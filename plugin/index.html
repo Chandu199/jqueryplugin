@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="accordion.js"></script>
+    
+    <style>
+      #accordion{
+        background-color: #eee;
+        padding: 5px;
+      }
+       .header{
+        font-size:18px;
+        cursor:pointer;
+        background-color: grey;
+        color:white;
+        padding: 5px;
+        margin-bottom:1px;
+      }
+       .panel{
+        padding:3px;
+      }
+    </style>
+    
+  </head>
+  
+  <body>
+    
+    <div id ="accordion">
+      <h3> ITEM1</h3>
+      <div>
+        <ul>
+          <li>IM the item inside Item 1 </li>
+        </ul>
+      </div>
+      <h3> ITEM2</h3>
+      <div>
+        <ul>
+          <li>IM the item inside Item 2 </li>
+        </ul>
+      </div>
+      <h3> ITEM3</h3>
+      <div>
+        <ul>
+          <li>IM the item inside Item 3 </li>
+        </ul>
+      </div>
+      
+    </div>
+     <script>
+    var acc = $('#accordion').accordion();
+    </script>
+  </body>
+</html>
